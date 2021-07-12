@@ -1,0 +1,38 @@
+{
+  "groups": [
+    {
+      "name": "security",
+      "type": "com.marcosbarbero.lab.sec.oauth.jwt.config.props.SecurityProperties",
+      "sourceType": "com.marcosbarbero.lab.sec.oauth.jwt.config.props.SecurityProperties"
+    },
+    {
+      "name": "security.jwt",
+      "type": "com.marcosbarbero.lab.sec.oauth.jwt.config.props.SecurityProperties$JwtProperties",
+      "sourceType": "com.marcosbarbero.lab.sec.oauth.jwt.config.props.SecurityProperties",
+      "sourceMethod": "getJwt()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "security.jwt.key-pair-alias",
+      "type": "java.lang.String",
+      "sourceType": "com.marcosbarbero.lab.sec.oauth.jwt.config.props.SecurityProperties$JwtProperties"
+    },
+    {
+      "name": "security.jwt.key-pair-password",
+      "type": "java.lang.String",
+      "sourceType": "com.marcosbarbero.lab.sec.oauth.jwt.config.props.SecurityProperties$JwtProperties"
+    },
+    {
+      "name": "security.jwt.key-store",
+      "type": "org.springframework.core.io.Resource",
+      "sourceType": "com.marcosbarbero.lab.sec.oauth.jwt.config.props.SecurityProperties$JwtProperties"
+    },
+    {
+      "name": "security.jwt.key-store-password",
+      "type": "java.lang.String",
+      "sourceType": "com.marcosbarbero.lab.sec.oauth.jwt.config.props.SecurityProperties$JwtProperties"
+    }
+  ],
+  "hints": []
+}

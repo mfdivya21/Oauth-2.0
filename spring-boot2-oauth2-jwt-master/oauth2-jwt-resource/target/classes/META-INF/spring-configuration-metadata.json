@@ -1,0 +1,23 @@
+{
+  "groups": [
+    {
+      "name": "security",
+      "type": "com.marcosbarbero.lab.sec.oauth.jwt.ds.config.SecurityProperties",
+      "sourceType": "com.marcosbarbero.lab.sec.oauth.jwt.ds.config.SecurityProperties"
+    },
+    {
+      "name": "security.jwt",
+      "type": "com.marcosbarbero.lab.sec.oauth.jwt.ds.config.SecurityProperties$JwtProperties",
+      "sourceType": "com.marcosbarbero.lab.sec.oauth.jwt.ds.config.SecurityProperties",
+      "sourceMethod": "getJwt()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "security.jwt.public-key",
+      "type": "org.springframework.core.io.Resource",
+      "sourceType": "com.marcosbarbero.lab.sec.oauth.jwt.ds.config.SecurityProperties$JwtProperties"
+    }
+  ],
+  "hints": []
+}
